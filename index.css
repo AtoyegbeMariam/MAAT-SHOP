@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    /* width: 100vw */
+}
+/* 
+.container {
+width: 100%;
+} */
+
+.headerbox{
+    
+}
+header {
+    background-color: green;
+    position: sticky;  /**its makes the header stick to a postion*/
+    top: 0px;
+}
+
+P span{
+    color: green;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+}
+
+nav h1 {
+    text-align: center;
+
+}
+
+.companyname{
+    padding: 20px;
+}
+
+nav p{
+    text-align: center;
+    font-size: 13px;
+}
+
+.nav {
+    display: flex;
+    justify-content:space-between;
+    padding: 7px 20px;
+    max-height: 30px;
+    background-color: greenyellow;
+    
+}
+
+
+.subnav{
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    
+}
+
+hr{
+    border-top: solid yellowgreen;
+}
+
+a{
+    color: #fff;
+}
+
+section .image img{
+    width: 100%;
+    }
+.image{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.wrap{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.wrap .collection img{
+    width: 100%;
+}
+.wrap,
+.wrapper,
+.product,
+.line{
+    margin-bottom: 10px;
+}
+
+.outline{
+    padding: 20px;
+    font-size: 18px;
+}
+
+.intro h1,
+.wrap h1,
+.wrapper h1,
+.product h1,
+.line h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.collection,
+.collect,
+.produce,
+.finishing{
+    display: flex;
+    gap: 30px;
+    padding: 0 30px;
+    justify-content: center;
+}
+
+.collection img,
+.collect img,
+.produce img,
+.finishing img{
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+
+
+
