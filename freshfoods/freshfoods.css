@@ -60,3 +60,96 @@ hr{
 a{
     color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+    .nav {
+        font-size: 14px;
+    }
+
+    .nav .right .mobilehideA {
+        display: none;
+    }
+
+    .subnav {
+        margin-top: 6px;
+        padding: 6px;
+        gap: 34px;
+    }
+
+    .companyname {
+        padding: 13px;
+    }
+
+    .outline p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .collection,
+    .collect,
+    .produce,
+    .finishing {
+        gap: 15px;
+
+    }
+
+    .collection .mobilehideB,
+    .collect .mobilehideB,
+    .produce .mobilehideB,
+    .finishing .mobilehideB {
+        display: none;
+
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .nav .right .mobilehideD {
+        display: none;
+    }
+
+    .collection,
+    .collect,
+    .produce,
+    .finishing {
+        flex-direction: column;
+
+    }
+
+    .subnav {
+        gap: 12px;
+    }
+
+    .subnav .mobilehideM {
+        display: none;
+    }
+
+    .subnav a {
+        font-size: 11px;
+    }
+
+    .nav .right .mobilehideE {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .left p{
+        font-size: 13px;
+    }
+
+    .intro h1,
+    .wrap h1,
+    .wrapper h1,
+    .product h1,
+    .line h1 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .subnav a {
+        font-size: 9px;
+    }
+}
