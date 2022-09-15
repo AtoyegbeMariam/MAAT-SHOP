@@ -155,6 +155,14 @@ section .image img {
     min-width: 64px;
 }
 
+.footersubnav p{
+    text-align: center;
+}
+
+.footersubnav{
+    padding: 8px;
+}
+
 @media screen and (max-width: 768px) {
     .nav {
         font-size: 14px;
