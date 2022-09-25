@@ -61,6 +61,20 @@ a{
     color: #fff;
 }
 
+.collection{
+    display: flex;
+    gap: 30px;
+    padding: 0 30px;
+    justify-content: center;
+}
+
+.collection img{
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+
+
 @media screen and (max-width: 768px) {
     .nav {
         font-size: 14px;
